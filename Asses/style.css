@@ -1,0 +1,269 @@
+
+/*Header*/
+.header-navbar{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-navbar-list{
+    font-weight: 600;
+    display: flex;
+}
+.header-navbar-list li {
+    align-items: center;
+    margin-right: 20px;
+}
+.header-navbar a:hover {
+  color: var(--icon-hover);
+}
+.header-navbar-list i {
+    font-size: 10px;
+}
+.header-title{
+    margin-right: 60px;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-title__name{
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+}
+
+.header-search{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header-search-entire{
+    margin-right: 25px;
+}
+.header-search-entire li {
+    cursor: pointer;
+}
+.header-search li:hover {
+    color: var(--icon-hover);
+}
+.header-search-entire__text{
+height: 30px;
+margin-right: 5px;
+border-style: ridge;
+margin-top: -4px;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding-left: 10px ;
+width: 200px;
+outline: none; /*bam vao khong hien boder*/
+}
+.header-search-button li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+/*Slider*/
+/* Slideshow container */
+.slideshow-container {
+    width: 80%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--background-header);
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 6px;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(240, 227, 235, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: var(--text-slider);
+    font-size: 20px;
+    padding: 100px 100px;
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
+    text-align: left;
+    font-family: var(--font-family);
+    text-shadow: 0.1em 0.1em 0.2em rgba(235, 240, 247, 0.925);
+
+  }
+  
+  .headertext {
+    color: var(--text-header);
+    font-size: 70px;
+    padding: 100px 100px;
+    position: absolute;
+    bottom: 180px;
+    text-shadow: 0.1em 0.1em 0.2em rgba(23, 27, 32, 0.445);
+  }
+
+.headertext-slider1 , .text-slider1 {
+color: #fff;
+text-shadow: 0.1em 0.1em 0.2em rgba(2, 3, 3, 0.678);
+}
+.headertext-slider1  {
+  bottom: 130px;
+}
+.text-slider3{
+  bottom: 30px;
+  line-height: 2;
+
+}
+.shop-collection {
+  cursor: pointer;
+  background-color: #f1740dbe;
+  width: 200px;
+  height: 35px;
+  border: 0px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.shop-collection:hover {
+  background-color: #f5a56394;
+}
+.shop-collection i {
+  font-size: 15px;
+}
+  /* The dots/bullets/indicators */
+  .button-dot {
+    position: absolute;
+    top: 95%;
+    left: 0px;
+    right: 0px;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--button-next);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: var(--icon-text);
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+  }
+
+
+  /*Category*/
+.category-frames{
+height: 100px;
+width: 300px;
+border: 1px solid rgba(52, 53, 52, 0.255);
+cursor: pointer;
+box-shadow: 1px 1px 1px 1px #88888880; /*hieu ung do bong*/
+display: flex;
+}
+
+.category-frames:hover{
+  box-shadow: inset 2px 2px 2px #88888880;
+
+}
+.category-frames i {
+  font-size: 45px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 30px;
+  color: var(--icon-text);
+}
+.category-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+.category-text__header {
+  margin: 0;
+}
+.category-text__des{
+margin-top: 8px;
+margin-bottom: 0;
+font-size: 13px;
+}
+
+/*Product*/
+.header-product{
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.header-product__text{
+color: var(--icon-text);
+line-height: .6;
+}
+
+.header-product__button-frames{
+  width: 30px;
+  height: 30px;
+  background-color: var(--button-next);
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  padding-top: 7px;
+}
+.header-product__button-frames:hover {
+  background-color: var(--text-slider);
+}
+.product__items {
+  width:100px;
+}
+.header-product__img{
+display: flex;
+}
+.header-product__img-sale{
+  
+}
+.header-product__img-items{
+  display: flex ;
+}
+.product-sale__item{
+  width: 30%;
+
+}
