@@ -39,8 +39,6 @@ ul, h3 {
 
 #category{
 height: 180px;
-display: flex;
-justify-content: space-between;
 }
 
 #product{
