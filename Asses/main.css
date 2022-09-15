@@ -34,11 +34,11 @@ ul, h3 {
     margin: 0;
 }
 #slider{
-    height: 780px;
+    height: 730px;
 }
 
 #category{
-height: 180px;
+height: 190px;
 }
 
 #product{
@@ -62,4 +62,13 @@ margin-bottom: 100px;
 
 #footer{
 
+}
+#over img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h4 {
+    padding: 0;
+    margin: 0;
 }
