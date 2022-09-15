@@ -14,6 +14,7 @@ user-select: none;
 --text-slider : rgba(5, 10, 12, 0.548);
 --button-next : rgba(179, 101, 13, 0.493);
 --icon-text : #f1740d;
+--green-text: #348101;
 }
 #header {
     display: flex;
