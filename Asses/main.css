@@ -15,6 +15,7 @@ user-select: none;
 --button-next : rgba(179, 101, 13, 0.493);
 --icon-text : #f1740d;
 --green-text: #348101;
+--button-color : #f1740dbe;
 }
 #header {
     display: flex;
@@ -45,7 +46,7 @@ height: 190px;
 }
 
 #product{
-height: 500px;
+height: 1080px;
 margin-bottom: 100px;
 }
 .share {
