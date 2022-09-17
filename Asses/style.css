@@ -412,8 +412,8 @@ h6 {
   background-size: cover;
   object-fit: cover;
 }
-
-.product-item__img-plant:hover {
+#popular .product-item__img-plant:hover,
+#product .product-item__img-plant:hover {
 -webkit-transform:scale(0.8); /*Webkit: Thu nhỏ kích thước ảnh còn 0.8 so với ảnh gốc*/
 -moz-transform:scale(0.8); /*Thu nhỏ đối với Mozilla*/
 -o-transform:scale(0.8); /*Thu nhỏ đối với Opera*/
@@ -599,4 +599,33 @@ background-color: #34810181;
 .product-item__money-reduce{
   text-decoration :line-through;
   padding-right: 40px;
+}
+/* Blog */
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-item .product-item__plant {
+  margin-left: 0;
+  margin-right: 0;
+  width: 340px;
+  height: 400px;
+}
+
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-item .product-item__plant {
+  position: relative;
+}
+.blog-item__time{
+padding-left: 20px;
+padding-right: 20px;
+color: rgba(19, 153, 7, 0.671);
+margin-bottom: 15px;
+}
+.blog-item__des{
+padding-left: 20px;
+padding-right: 20px;
 }
