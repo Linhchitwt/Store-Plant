@@ -57,15 +57,16 @@ height: 450px;
 }
 
 #blog{
-height: 600px;
+height: 490px;
 }
 
 #voucher{
-
+align-items: center;
+height: 330px;
 }
 
 #footer{
-
+height: 500px;
 }
 #over img {
 	margin-left: auto;
