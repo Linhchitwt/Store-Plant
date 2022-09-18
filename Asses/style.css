@@ -690,7 +690,7 @@ padding-right: 20px;
   outline: none;
   border: 1px solid var(--green-text);
 }
-
+.footer-join__input .shop-collection,
 .voucher-gene .shop-collection {
   width: 120px;
   border-radius: 5px;
@@ -698,11 +698,125 @@ padding-right: 20px;
   background-color: var(--green-text);
   font-size: 15px;
 }
-
+.footer-join__input .shop-collection:hover,
 .voucher-gene .shop-collection:hover {
   opacity: 0.7;
 }
+
+/* hr */
 .hr-footer{
   border-top: 2px solid rgb(28, 121, 2);
    opacity: .3;
+}
+
+/* Footer */
+.footer-main h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+.footer-main h1 {
+  color: var(--green-text);
+  font-size: 30px;
+ margin-bottom: 15px;
+}
+.footer-main{
+display: flex;
+justify-content: space-between;
+
+}
+
+.footer-scrip{
+width: 350px;
+}
+.footer-about__name{
+  margin-bottom: 15px;
+  font-family: 'Ms Madi', cursive;
+  font-size: 40px;
+}
+
+.footer-about__des{
+margin-bottom: 20px;
+}
+.footer-join__icon ,
+.footer-about__icon{
+font-size: 30px;
+opacity: .6;
+}
+.footer-about__icon i {
+cursor: pointer;
+margin-right: 10px;
+}
+.footer-about__icon i:hover {
+opacity: .4;
+}
+
+.footer-join__input{
+margin-top: 35px;
+display: flex;
+flex: 1;
+margin-bottom: 40px;
+}
+ /* Contact */
+.override-contact{
+  padding-top: 20px;
+background-color: black;
+opacity: .6;
+}
+.contact-wide{
+width: 300px;
+}
+
+.contact-small{
+width: 130px;
+}
+
+.contact-title{
+font-weight: 600;
+font-size: 20px;
+padding-bottom: 20px;
+}
+
+.contact-des{
+display: flex;
+margin-bottom: 25px;
+}
+
+.contact-icon{
+height: 50px;
+width: 50px;
+background-color: var(--green-text);
+border-radius: 50%;
+font-size: 20px;
+text-align: center;
+}
+.contact-info {
+  margin-left: 15px;
+  position: relative;
+}
+.contact-us__header{
+font-style: italic;
+font-size: 15px;
+}
+
+.contact-us__des{
+  position: absolute;
+  font-size: 14px;
+  padding-right: 10px;
+  bottom: 0;
+  width: 220px;
+}
+.contact-des i{
+  margin-top: 15px;
+}
+.contact-list__item li{
+  padding-top: 20px;
+
+}
+.contact-list__time{
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact a {
+  color: #fff;
 }
