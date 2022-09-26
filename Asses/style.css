@@ -410,7 +410,7 @@ h6 {
   height: 200px;
   background-position: center center;
   background-size: cover;
-  object-fit: cover;
+  object-fit: contain;
 }
 #popular .product-item__img-plant:hover,
 #product .product-item__img-plant:hover {
